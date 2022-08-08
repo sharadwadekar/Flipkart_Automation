@@ -30,7 +30,7 @@ public class testSteps {
 	public String child_window;
 	@Before(order=1)
     public void beforeScenario(){
-		System.setProperty("webdriver.chrome.driver","D:\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Shree\\Desktop\\May2020\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();

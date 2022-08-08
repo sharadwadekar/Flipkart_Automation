@@ -7,8 +7,11 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C:\\Users\\Sharayu\\eclipse-workspace\\Flipkart_Automation\\src\\test\\resources\\Features",
-		glue = {"stepDefinition"})
+		features = "C:\\Users\\Shree\\Desktop\\May2020\\Flipkart_Automation\\src\\test\\resources\\Features\\Login.feature",
+		glue = {"stepDefinition"}
+		
+		)
+
 public class TestRunner {
 
 }
